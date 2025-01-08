@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* Ensure that swiper wrapper and slides have a flexible layout */
+.swiper {
+  width: 100%; /* Make sure it takes full width */
+  overflow: hidden; /* Hide overflow for smooth scrolling */
+}
+
+.swiper-wrapper {
+  display: flex; /* This allows the items to be arranged in a row */
+}
+
+.swiper-slide {
+  width: 20%; /* Set each slide to occupy 20% of the width (5 slides per row) */
+  flex-shrink: 0; /* Prevent the slides from shrinking */
+}
+
+.product-card {
+  border: 1px solid #ccc; /* Optional: Add border to product cards */
+  padding: 10px; /* Optional: Add some padding inside the card */
+  text-align: center; /* Center the text inside each card */
+}
+
+.image-holder img {
+  max-width: 100%; /* Ensure the image takes full width of its container */
+  height: auto; /* Maintain aspect ratio of the image */
+}
+
+.cart-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Optional: Adjust swiper pagination and navigation buttons styles */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

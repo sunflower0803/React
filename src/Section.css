@@ -1,0 +1,123 @@
+/* Ensure the section has the proper layout */
+#billboard {
+    position: relative;
+    overflow: hidden; /* Ensures that content outside the section is hidden */
+    background-color: #eaf4ff; /* Light blue background */
+    padding: 0; /* No additional padding on the section */
+  }
+  
+  .swiper.main-swiper {
+    width: 100%;
+    height: 100%; /* Full width and height of the parent container */
+  }
+  
+  .swiper-wrapper {
+    display: flex; /* Aligns swiper slides in a row */
+  }
+  
+  .swiper-slide {
+    width: 100%; /* Each slide takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7; /* Light background color for each slide */
+  }
+  
+  /* Styling for the content of each slide */
+  .swiper-slide .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .swiper-slide .banner-content {
+    padding-right: 30px;
+  }
+  
+  .banner-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .banner-content a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px;
+    color: white;
+    background-color: #333; /* Dark button */
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-content a:hover {
+    background-color: #555; /* Darker shade on hover */
+  }
+  
+  /* Style for the image container */
+  .image-holder img {
+    max-width: 100%; /* Ensures images scale correctly */
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  /* Optional: Styling for Swiper navigation arrows */
+  .swiper-icon {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for arrows */
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  .swiper-arrow-prev {
+    left: 20px; /* Position the previous arrow to the left */
+  }
+  
+  .swiper-arrow-next {
+    right: 20px; /* Position the next arrow to the right */
+  }
+  
+  /* Optional: Styling for the arrows */
+  .swiper-icon svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Responsive Design: Adjust for smaller screens */
+  @media (max-width: 768px) {
+    .swiper-slide .container {
+      flex-direction: column; /* Stack the content and image vertically on smaller screens */
+    }
+  
+    .swiper-slide .image-holder {
+      margin-top: 20px; /* Add some spacing between image and content on smaller screens */
+    }
+  
+    .banner-content h1 {
+      font-size: 30px; /* Smaller font size on mobile */
+      text-align: center;
+    }
+  
+    .banner-content a {
+      font-size: 14px; /* Adjust the font size of the button on smaller screens */
+    }
+    
+  }
+  

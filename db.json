@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 10",
+      "price": 980,
+      "imgSrc": "/images/product-item1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Iphone 11",
+      "price": 1100,
+      "imgSrc": "/images/product-item2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Iphone 8",
+      "price": 780,
+      "imgSrc": "/images/product-item3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Iphone 13",
+      "price": 1500,
+      "imgSrc": "/images/product-item4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Iphone 12",
+      "price": 1300,
+      "imgSrc": "/images/product-item5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy S21",
+      "price": 900,
+      "imgSrc": "/images/product-item6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Google Pixel 6",
+      "price": 850,
+      "imgSrc": "/images/product-item7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "OnePlus 9 Pro",
+      "price": 1000,
+      "imgSrc": "/images/product-item8.jpg"
+    }
+  ],
+  "smartwatches": [
+    {
+      "id": 1,
+      "name": "Apple Watch Series 7",
+      "price": 399,
+      "imgSrc": "/images/product-item6.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy Watch 4",
+      "price": 250,
+      "imgSrc": "/images/product-item7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fitbit Charge 5",
+      "price": 180,
+      "imgSrc": "/images/product-item8.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Garmin Fenix 6X",
+      "price": 600,
+      "imgSrc": "/images/product-item9.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Amazfit GTR 3 Pro",
+      "price": 230,
+      "imgSrc": "/images/product-item10.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Huawei Watch GT 3",
+      "price": 300,
+      "imgSrc": "/images/product-item11.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Fossil Gen 6",
+      "price": 299,
+      "imgSrc": "/images/product-item12.jpg"
+    },
+    {
+      "id": 8,
+      "name": "TicWatch Pro 3",
+      "price": 350,
+      "imgSrc": "/images/product-item13.jpg"
+    }
+  ]
+}
